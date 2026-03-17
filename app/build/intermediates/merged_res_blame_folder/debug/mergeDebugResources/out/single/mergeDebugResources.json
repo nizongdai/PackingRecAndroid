@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "com.packingrec.android.app-debug-50:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.packingrec.android.app-main-52:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.packingrec.android.app-debug-50:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.packingrec.android.app-main-52:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.packingrec.android.app-debug-50:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.packingrec.android.app-main-52:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.packingrec.android.app-debug-50:/layout_activity_main.xml.flat",
+        "source": "com.packingrec.android.app-main-52:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.packingrec.android.app-debug-50:/drawable_center_region_border.xml.flat",
+        "source": "com.packingrec.android.app-main-52:/drawable/center_region_border.xml"
+    },
+    {
+        "merged": "com.packingrec.android.app-debug-50:/drawable_pdacam.png.flat",
+        "source": "com.packingrec.android.app-main-52:/drawable/pdacam.png"
+    },
+    {
+        "merged": "com.packingrec.android.app-debug-50:/layout_activity_settings.xml.flat",
+        "source": "com.packingrec.android.app-main-52:/layout/activity_settings.xml"
+    }
+]

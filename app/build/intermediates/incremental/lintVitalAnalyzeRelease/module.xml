@@ -1,0 +1,20 @@
+<lint-module
+    format="1"
+    dir="/Users/nizongdai/GitHub/PackingRecAndroid/app"
+    name=":app"
+    type="APP"
+    maven="PackingRecAndroid:app:unspecified"
+    agpVersion="9.1.0"
+    buildFolder="build"
+    bootClassPath="/Users/nizongdai/Library/Android/sdk/platforms/android-34/android.jar:/Users/nizongdai/Library/Android/sdk/build-tools/36.0.0/core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-34"
+    neverShrinking="true"
+    highlightGradualR8Api="false">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>

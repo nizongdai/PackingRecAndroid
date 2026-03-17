@@ -1,0 +1,8 @@
+com.packingrec.android.app-pngs-0 /Users/nizongdai/GitHub/PackingRecAndroid/app/build/generated/res/pngs/debug
+com.packingrec.android.app-resValues-1 /Users/nizongdai/GitHub/PackingRecAndroid/app/build/generated/res/resValues/debug
+com.packingrec.android.app-updated_navigation_xml-2 /Users/nizongdai/GitHub/PackingRecAndroid/app/build/generated/updated_navigation_xml/debug
+com.packingrec.android.app-packageDebugResources-3 /Users/nizongdai/GitHub/PackingRecAndroid/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.packingrec.android.app-packageDebugResources-4 /Users/nizongdai/GitHub/PackingRecAndroid/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.packingrec.android.app-debug-5 /Users/nizongdai/GitHub/PackingRecAndroid/app/build/intermediates/merged_res/debug/mergeDebugResources
+com.packingrec.android.app-debug-6 /Users/nizongdai/GitHub/PackingRecAndroid/app/src/debug/res
+com.packingrec.android.app-main-7 /Users/nizongdai/GitHub/PackingRecAndroid/app/src/main/res

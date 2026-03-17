@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <string-array name="quality_options">
+        <item>SD</item>
+        <item>HD</item>
+        <item>FHD</item>
+        <item>UHD</item>
+    </string-array>
+    <color name="center_region_border">#FFD700</color>
+    <color name="control_panel_bg">#00000000</color>
+    <color name="ic_launcher_background">#1B1B1B</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="white">#FFFFFF</color>
+    <string name="all_uploaded">所有视频均已完成上传</string>
+    <string name="app_name">泽津打包监控系统</string>
+    <string name="barcode_text_size">条码显示字号</string>
+    <string name="cancel">取消</string>
+    <string name="ftp_enable">启用FTP上传</string>
+    <string name="ftp_host">FTP 服务器</string>
+    <string name="ftp_password">密码</string>
+    <string name="ftp_remote_dir">远程目录</string>
+    <string name="ftp_status_done">完成</string>
+    <string name="ftp_status_failed">失败</string>
+    <string name="ftp_status_format">FTP: %1$s</string>
+    <string name="ftp_status_idle">空闲</string>
+    <string name="ftp_status_queued">排队中</string>
+    <string name="ftp_status_uploading">上传中</string>
+    <string name="ftp_upload">FTP 上传</string>
+    <string name="ftp_username">用户名</string>
+    <string name="idle">空闲</string>
+    <string name="manual_upload">手动上传文件</string>
+    <string name="min_barcode_length">最小条码长度</string>
+    <string name="output_directory">输出目录子路径</string>
+    <string name="pause">暂停识别</string>
+    <string name="permission_denied">权限未授予</string>
+    <string name="recognition_status_format">识别: %1$s</string>
+    <string name="record_quality">录制质量档位</string>
+    <string name="recording">录制中</string>
+    <string name="recording_status_format">录制: %1$s</string>
+    <string name="region_height_ratio">中央区域高度比例</string>
+    <string name="region_width_ratio">中央区域宽度比例</string>
+    <string name="resume">继续识别</string>
+    <string name="save">保存</string>
+    <string name="scan_interval_ms">识别间隔(毫秒)</string>
+    <string name="settings">设置</string>
+    <string name="settings_title">条码识别与录制设置</string>
+    <string name="start_hold_seconds">开始停留秒数</string>
+    <string name="start_recording">开始录像</string>
+    <string name="start_recording_with_tail">%1$s开始录像</string>
+    <string name="status_waiting">等待条码识别</string>
+    <string name="stop_empty_seconds">停止静止秒数</string>
+    <string name="stop_recording">停止录像</string>
+    <string name="stop_recording_button">停止录像</string>
+    <string name="switch_camera">切换摄像头</string>
+    <style name="Theme.PackingRecAndroid" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="android:statusBarColor" ns1:targetApi="l">#000000</item>
+    </style>
+</resources>

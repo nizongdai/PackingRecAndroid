@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="control_panel_bg">#00000000</color>
+    <color name="center_region_border">#FFD700</color>
+    <color name="ic_launcher_background">#1B1B1B</color>
+</resources>
