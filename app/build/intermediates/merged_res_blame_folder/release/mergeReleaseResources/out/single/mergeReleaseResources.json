@@ -1,30 +1,46 @@
 [
     {
-        "merged": "com.packingrec.android.app-release-50:/layout_activity_settings.xml.flat",
-        "source": "com.packingrec.android.app-main-51:/layout/activity_settings.xml"
+        "merged": "com.packingrec.android.app-release-50:/layout_activity_local_videos.xml.flat",
+        "source": "com.packingrec.android.app-main-51:/layout/activity_local_videos.xml"
     },
     {
-        "merged": "com.packingrec.android.app-release-50:/drawable_pdacam.png.flat",
-        "source": "com.packingrec.android.app-main-51:/drawable/pdacam.png"
+        "merged": "/Users/nizongdai/.gradle/daemon/9.3.1/com.packingrec.android.app-release-50:/layout_activity_settings.xml.flat",
+        "source": "/Users/nizongdai/.gradle/daemon/9.3.1/com.packingrec.android.app-main-51:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "/Users/nizongdai/.gradle/daemon/9.3.1/com.packingrec.android.app-release-50:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/nizongdai/.gradle/daemon/9.3.1/com.packingrec.android.app-main-51:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
         "merged": "com.packingrec.android.app-release-50:/layout_activity_main.xml.flat",
         "source": "com.packingrec.android.app-main-51:/layout/activity_main.xml"
     },
     {
-        "merged": "com.packingrec.android.app-release-50:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.packingrec.android.app-main-51:/drawable/ic_launcher_foreground.xml"
+        "merged": "com.packingrec.android.app-release-50:/layout_activity_local_video_player.xml.flat",
+        "source": "com.packingrec.android.app-main-51:/layout/activity_local_video_player.xml"
     },
     {
-        "merged": "com.packingrec.android.app-release-50:/drawable_center_region_border.xml.flat",
-        "source": "com.packingrec.android.app-main-51:/drawable/center_region_border.xml"
+        "merged": "/Users/nizongdai/.gradle/daemon/9.3.1/com.packingrec.android.app-release-50:/drawable_pdacam.png.flat",
+        "source": "/Users/nizongdai/.gradle/daemon/9.3.1/com.packingrec.android.app-main-51:/drawable/pdacam.png"
     },
     {
-        "merged": "com.packingrec.android.app-release-50:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.packingrec.android.app-main-51:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "/Users/nizongdai/.gradle/daemon/9.3.1/com.packingrec.android.app-release-50:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/Users/nizongdai/.gradle/daemon/9.3.1/com.packingrec.android.app-main-51:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.packingrec.android.app-release-50:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.packingrec.android.app-main-51:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "/Users/nizongdai/.gradle/daemon/9.3.1/com.packingrec.android.app-release-50:/drawable_center_region_border.xml.flat",
+        "source": "/Users/nizongdai/.gradle/daemon/9.3.1/com.packingrec.android.app-main-51:/drawable/center_region_border.xml"
+    },
+    {
+        "merged": "/Users/nizongdai/.gradle/daemon/9.3.1/com.packingrec.android.app-release-50:/layout_activity_main.xml.flat",
+        "source": "/Users/nizongdai/.gradle/daemon/9.3.1/com.packingrec.android.app-main-51:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.packingrec.android.app-release-50:/xml_file_paths.xml.flat",
+        "source": "com.packingrec.android.app-main-51:/xml/file_paths.xml"
+    },
+    {
+        "merged": "/Users/nizongdai/.gradle/daemon/9.3.1/com.packingrec.android.app-release-50:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/nizongdai/.gradle/daemon/9.3.1/com.packingrec.android.app-main-51:/mipmap-anydpi-v26/ic_launcher.xml"
     }
 ]

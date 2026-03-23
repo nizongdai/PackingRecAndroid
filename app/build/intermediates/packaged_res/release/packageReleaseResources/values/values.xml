@@ -8,6 +8,7 @@
     </string-array>
     <color name="center_region_border">#FFD700</color>
     <color name="control_panel_bg">#00000000</color>
+    <color name="danger_red">#D32F2F</color>
     <color name="ic_launcher_background">#1B1B1B</color>
     <color name="purple_500">#6200EE</color>
     <color name="purple_700">#3700B3</color>
@@ -15,6 +16,7 @@
     <color name="white">#FFFFFF</color>
     <string name="all_uploaded">所有视频均已完成上传</string>
     <string name="app_name">泽津打包监控系统</string>
+    <string name="back">返回</string>
     <string name="barcode_text_size">条码显示字号</string>
     <string name="cancel">取消</string>
     <string name="ftp_enable">启用FTP上传</string>
@@ -30,6 +32,9 @@
     <string name="ftp_upload">FTP 上传</string>
     <string name="ftp_username">用户名</string>
     <string name="idle">空闲</string>
+    <string name="local_videos">本地视频</string>
+    <string name="local_videos_empty">暂无本地视频</string>
+    <string name="local_videos_title">本地视频</string>
     <string name="manual_upload">手动上传文件</string>
     <string name="min_barcode_length">最小条码长度</string>
     <string name="output_directory">输出目录子路径</string>

@@ -12,10 +12,29 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.PackingRecAndroid">
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
         <activity
             android:name=".SettingsActivity"
             android:exported="false"
             android:screenOrientation="landscape" />
+        <activity
+            android:name=".LocalVideosActivity"
+            android:exported="false"
+            android:screenOrientation="landscape"
+            android:label="@string/local_videos_title" />
+        <activity
+            android:name=".LocalVideoPlayerActivity"
+            android:exported="false"
+            android:screenOrientation="landscape"
+            android:label="@string/local_videos_title" />
         <activity
             android:name=".MainActivity"
             android:exported="true"

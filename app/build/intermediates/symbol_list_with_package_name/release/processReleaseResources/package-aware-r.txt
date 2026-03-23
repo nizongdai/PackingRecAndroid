@@ -1401,6 +1401,7 @@ color common_google_signin_btn_text_light_focused
 color common_google_signin_btn_text_light_pressed
 color common_google_signin_btn_tint
 color control_panel_bg
+color danger_red
 color design_bottom_navigation_shadow_color
 color design_box_stroke_color
 color design_dark_default_color_background
@@ -3236,6 +3237,7 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id backButton
 id barcodeText
 id barcodeTextSizeInput
 id barrier
@@ -3331,6 +3333,7 @@ id edit_query
 id edit_text_id
 id elastic
 id embed
+id emptyView
 id end
 id endToStart
 id enterAlways
@@ -3409,6 +3412,7 @@ id line3
 id linear
 id listMode
 id list_item
+id localVideosButton
 id m3_side_sheet
 id marquee
 id masked
@@ -3523,6 +3527,8 @@ id peekHeight
 id percent
 id performance
 id pin
+id playerBackButton
+id playerControls
 id position
 id postLayout
 id pressed
@@ -3532,7 +3538,6 @@ id progress_horizontal
 id qualitySpinner
 id radio
 id ratio
-id recognitionStatusText
 id recordingStatusText
 id rectangles
 id report_drawn
@@ -3603,6 +3608,7 @@ id startToEnd
 id startVertical
 id staticLayout
 id staticPostLayout
+id statusPanel
 id stop
 id stopEmptyInput
 id stopRecordingButton
@@ -3610,7 +3616,6 @@ id stretch
 id submenuarrow
 id submit_area
 id supportScrollUp
-id switchCameraButton
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -3666,6 +3671,8 @@ id unlabeled
 id up
 id useLogo
 id vertical_only
+id videoList
+id videoView
 id view_offset_helper
 id view_transition
 id view_tree_lifecycle_owner
@@ -3800,6 +3807,8 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_local_video_player
+layout activity_local_videos
 layout activity_main
 layout activity_settings
 layout custom_dialog
@@ -3915,6 +3924,7 @@ string all_uploaded
 string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
+string back
 string barcode_text_size
 string bottom_sheet_behavior
 string bottomsheet_action_collapse
@@ -3973,6 +3983,9 @@ string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string idle
 string item_view_role_description
+string local_videos
+string local_videos_empty
+string local_videos_title
 string m3_exceed_max_badge_text_suffix
 string m3_ref_typeface_brand_medium
 string m3_ref_typeface_brand_regular
@@ -5392,3 +5405,4 @@ styleable ViewPager2 android_orientation
 styleable ViewStubCompat android_id android_layout android_inflatedId
 styleable ViewTransition android_id SharedValue SharedValueId clearsTag duration ifTagNotSet ifTagSet motionInterpolator motionTarget onStateTransition pathMotionArc setsTag transitionDisable upDuration viewTransitionMode
 styleable include constraintSet
+xml file_paths

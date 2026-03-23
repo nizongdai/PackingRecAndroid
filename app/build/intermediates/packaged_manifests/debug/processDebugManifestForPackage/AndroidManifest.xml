@@ -33,9 +33,29 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.PackingRecAndroid" >
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.packingrec.android.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
         <activity
             android:name="com.packingrec.android.SettingsActivity"
             android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.packingrec.android.LocalVideosActivity"
+            android:exported="false"
+            android:label="@string/local_videos_title"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.packingrec.android.LocalVideoPlayerActivity"
+            android:exported="false"
+            android:label="@string/local_videos_title"
             android:screenOrientation="landscape" />
         <activity
             android:name="com.packingrec.android.MainActivity"

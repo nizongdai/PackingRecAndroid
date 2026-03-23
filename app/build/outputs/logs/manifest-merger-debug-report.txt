@@ -1,9 +1,20 @@
 -- Merging decision tree log ---
+provider#androidx.core.content.FileProvider
+INJECTED from /Users/nizongdai/GitHub/PackingRecAndroid/app/src/main/AndroidManifest.xml:15:9-23:20
+	android:grantUriPermissions
+		ADDED from /Users/nizongdai/GitHub/PackingRecAndroid/app/src/main/AndroidManifest.xml:19:13-47
+	android:authorities
+		INJECTED from /Users/nizongdai/GitHub/PackingRecAndroid/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nizongdai/GitHub/PackingRecAndroid/app/src/main/AndroidManifest.xml:17:13-64
+	android:exported
+		ADDED from /Users/nizongdai/GitHub/PackingRecAndroid/app/src/main/AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from /Users/nizongdai/GitHub/PackingRecAndroid/app/src/main/AndroidManifest.xml:16:13-62
 manifest
-ADDED from /Users/nizongdai/GitHub/PackingRecAndroid/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /Users/nizongdai/GitHub/PackingRecAndroid/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /Users/nizongdai/GitHub/PackingRecAndroid/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /Users/nizongdai/GitHub/PackingRecAndroid/app/src/main/AndroidManifest.xml:2:1-30:12
+ADDED from /Users/nizongdai/GitHub/PackingRecAndroid/app/src/main/AndroidManifest.xml:2:1-49:12
+INJECTED from /Users/nizongdai/GitHub/PackingRecAndroid/app/src/main/AndroidManifest.xml:2:1-49:12
+INJECTED from /Users/nizongdai/GitHub/PackingRecAndroid/app/src/main/AndroidManifest.xml:2:1-49:12
+INJECTED from /Users/nizongdai/GitHub/PackingRecAndroid/app/src/main/AndroidManifest.xml:2:1-49:12
 MERGED from [androidx.databinding:viewbinding:9.1.0] /Users/nizongdai/.gradle/caches/9.3.1/transforms/0d0c5353398b9fb29c81158702053c29/transformed/viewbinding-9.1.0/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.12.0] /Users/nizongdai/.gradle/caches/9.3.1/transforms/262e3fece6ff858e69a3d884624149b6/transformed/material-1.12.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/nizongdai/.gradle/caches/9.3.1/transforms/94268ea856684f6f2da10c4166e87e49/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
@@ -102,8 +113,8 @@ MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /User
 	android:name
 		ADDED from /Users/nizongdai/GitHub/PackingRecAndroid/app/src/main/AndroidManifest.xml:6:22-64
 application
-ADDED from /Users/nizongdai/GitHub/PackingRecAndroid/app/src/main/AndroidManifest.xml:8:5-28:19
-INJECTED from /Users/nizongdai/GitHub/PackingRecAndroid/app/src/main/AndroidManifest.xml:8:5-28:19
+ADDED from /Users/nizongdai/GitHub/PackingRecAndroid/app/src/main/AndroidManifest.xml:8:5-47:19
+INJECTED from /Users/nizongdai/GitHub/PackingRecAndroid/app/src/main/AndroidManifest.xml:8:5-47:19
 MERGED from [com.google.android.material:material:1.12.0] /Users/nizongdai/.gradle/caches/9.3.1/transforms/262e3fece6ff858e69a3d884624149b6/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] /Users/nizongdai/.gradle/caches/9.3.1/transforms/262e3fece6ff858e69a3d884624149b6/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/nizongdai/.gradle/caches/9.3.1/transforms/94268ea856684f6f2da10c4166e87e49/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
@@ -163,31 +174,57 @@ MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/nizongdai/.gradle
 	android:theme
 		ADDED from /Users/nizongdai/GitHub/PackingRecAndroid/app/src/main/AndroidManifest.xml:14:9-55
 activity#com.packingrec.android.SettingsActivity
-ADDED from /Users/nizongdai/GitHub/PackingRecAndroid/app/src/main/AndroidManifest.xml:15:9-18:53
+ADDED from /Users/nizongdai/GitHub/PackingRecAndroid/app/src/main/AndroidManifest.xml:24:9-27:53
 	android:screenOrientation
-		ADDED from /Users/nizongdai/GitHub/PackingRecAndroid/app/src/main/AndroidManifest.xml:18:13-50
+		ADDED from /Users/nizongdai/GitHub/PackingRecAndroid/app/src/main/AndroidManifest.xml:27:13-50
 	android:exported
-		ADDED from /Users/nizongdai/GitHub/PackingRecAndroid/app/src/main/AndroidManifest.xml:17:13-37
+		ADDED from /Users/nizongdai/GitHub/PackingRecAndroid/app/src/main/AndroidManifest.xml:26:13-37
 	android:name
-		ADDED from /Users/nizongdai/GitHub/PackingRecAndroid/app/src/main/AndroidManifest.xml:16:13-45
+		ADDED from /Users/nizongdai/GitHub/PackingRecAndroid/app/src/main/AndroidManifest.xml:25:13-45
+activity#com.packingrec.android.LocalVideosActivity
+ADDED from /Users/nizongdai/GitHub/PackingRecAndroid/app/src/main/AndroidManifest.xml:28:9-32:58
+	android:screenOrientation
+		ADDED from /Users/nizongdai/GitHub/PackingRecAndroid/app/src/main/AndroidManifest.xml:31:13-50
+	android:label
+		ADDED from /Users/nizongdai/GitHub/PackingRecAndroid/app/src/main/AndroidManifest.xml:32:13-55
+	android:exported
+		ADDED from /Users/nizongdai/GitHub/PackingRecAndroid/app/src/main/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from /Users/nizongdai/GitHub/PackingRecAndroid/app/src/main/AndroidManifest.xml:29:13-48
+activity#com.packingrec.android.LocalVideoPlayerActivity
+ADDED from /Users/nizongdai/GitHub/PackingRecAndroid/app/src/main/AndroidManifest.xml:33:9-37:58
+	android:screenOrientation
+		ADDED from /Users/nizongdai/GitHub/PackingRecAndroid/app/src/main/AndroidManifest.xml:36:13-50
+	android:label
+		ADDED from /Users/nizongdai/GitHub/PackingRecAndroid/app/src/main/AndroidManifest.xml:37:13-55
+	android:exported
+		ADDED from /Users/nizongdai/GitHub/PackingRecAndroid/app/src/main/AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from /Users/nizongdai/GitHub/PackingRecAndroid/app/src/main/AndroidManifest.xml:34:13-53
 activity#com.packingrec.android.MainActivity
-ADDED from /Users/nizongdai/GitHub/PackingRecAndroid/app/src/main/AndroidManifest.xml:19:9-27:20
+ADDED from /Users/nizongdai/GitHub/PackingRecAndroid/app/src/main/AndroidManifest.xml:38:9-46:20
 	android:screenOrientation
-		ADDED from /Users/nizongdai/GitHub/PackingRecAndroid/app/src/main/AndroidManifest.xml:22:13-50
+		ADDED from /Users/nizongdai/GitHub/PackingRecAndroid/app/src/main/AndroidManifest.xml:41:13-50
 	android:exported
-		ADDED from /Users/nizongdai/GitHub/PackingRecAndroid/app/src/main/AndroidManifest.xml:21:13-36
+		ADDED from /Users/nizongdai/GitHub/PackingRecAndroid/app/src/main/AndroidManifest.xml:40:13-36
 	android:name
-		ADDED from /Users/nizongdai/GitHub/PackingRecAndroid/app/src/main/AndroidManifest.xml:20:13-41
+		ADDED from /Users/nizongdai/GitHub/PackingRecAndroid/app/src/main/AndroidManifest.xml:39:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/nizongdai/GitHub/PackingRecAndroid/app/src/main/AndroidManifest.xml:23:13-26:29
+ADDED from /Users/nizongdai/GitHub/PackingRecAndroid/app/src/main/AndroidManifest.xml:42:13-45:29
 action#android.intent.action.MAIN
-ADDED from /Users/nizongdai/GitHub/PackingRecAndroid/app/src/main/AndroidManifest.xml:24:17-69
+ADDED from /Users/nizongdai/GitHub/PackingRecAndroid/app/src/main/AndroidManifest.xml:43:17-69
 	android:name
-		ADDED from /Users/nizongdai/GitHub/PackingRecAndroid/app/src/main/AndroidManifest.xml:24:25-66
+		ADDED from /Users/nizongdai/GitHub/PackingRecAndroid/app/src/main/AndroidManifest.xml:43:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/nizongdai/GitHub/PackingRecAndroid/app/src/main/AndroidManifest.xml:25:17-77
+ADDED from /Users/nizongdai/GitHub/PackingRecAndroid/app/src/main/AndroidManifest.xml:44:17-77
 	android:name
-		ADDED from /Users/nizongdai/GitHub/PackingRecAndroid/app/src/main/AndroidManifest.xml:25:27-74
+		ADDED from /Users/nizongdai/GitHub/PackingRecAndroid/app/src/main/AndroidManifest.xml:44:27-74
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Users/nizongdai/GitHub/PackingRecAndroid/app/src/main/AndroidManifest.xml:20:13-22:54
+	android:resource
+		ADDED from /Users/nizongdai/GitHub/PackingRecAndroid/app/src/main/AndroidManifest.xml:22:17-51
+	android:name
+		ADDED from /Users/nizongdai/GitHub/PackingRecAndroid/app/src/main/AndroidManifest.xml:21:17-67
 uses-sdk
 INJECTED from /Users/nizongdai/GitHub/PackingRecAndroid/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/nizongdai/GitHub/PackingRecAndroid/app/src/main/AndroidManifest.xml

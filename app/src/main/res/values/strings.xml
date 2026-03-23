@@ -41,6 +41,10 @@
     <string name="save">保存</string>
     <string name="cancel">取消</string>
     <string name="stop_recording_button">停止录像</string>
+    <string name="local_videos">本地视频</string>
+    <string name="local_videos_title">本地视频</string>
+    <string name="local_videos_empty">暂无本地视频</string>
+    <string name="back">返回</string>
     <string-array name="quality_options">
         <item>SD</item>
         <item>HD</item>

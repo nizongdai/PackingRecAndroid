@@ -50,6 +50,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var appSettings: AppSettings
     private lateinit var tts: TextToSpeech
 
+    private var cameraProvider: ProcessCameraProvider? = null
     private var videoCapture: VideoCapture<Recorder>? = null
     private var recording: Recording? = null
     private var cameraSelector = CameraSelector.DEFAULT_BACK_CAMERA
@@ -72,7 +73,7 @@ class MainActivity : AppCompatActivity() {
             if (granted) {
                 startCamera()
             } else {
-                binding.recognitionStatusText.text = getString(R.string.permission_denied)
+                Toast.makeText(this, getString(R.string.permission_denied), Toast.LENGTH_SHORT).show()
             }
         }
 
@@ -87,22 +88,15 @@ class MainActivity : AppCompatActivity() {
         tts = TextToSpeech(this) {}
         applyRegionRatio()
         applyBarcodeTextSize()
-        updateRecognitionStatus(false)
         updateRecordingStatus()
         setupFtpStatusObserver()
 
-        binding.switchCameraButton.setOnClickListener {
-            cameraSelector =
-                if (cameraSelector == CameraSelector.DEFAULT_BACK_CAMERA) {
-                    CameraSelector.DEFAULT_FRONT_CAMERA
-                } else {
-                    CameraSelector.DEFAULT_BACK_CAMERA
-                }
-            startCamera()
-        }
-
         binding.settingsButton.setOnClickListener {
             startActivity(Intent(this, SettingsActivity::class.java))
+        }
+
+        binding.localVideosButton.setOnClickListener {
+            startActivity(Intent(this, LocalVideosActivity::class.java))
         }
 
         binding.pauseButton.setOnClickListener {
@@ -129,6 +123,12 @@ class MainActivity : AppCompatActivity() {
         requestPermissionsIfNeeded()
     }
 
+    override fun onPause() {
+        super.onPause()
+        cameraProvider?.unbindAll()
+        videoCapture = null
+    }
+
     private fun requestPermissionsIfNeeded() {
         val permissions = arrayOf(
             Manifest.permission.CAMERA,
@@ -148,6 +148,7 @@ class MainActivity : AppCompatActivity() {
         val cameraProviderFuture = ProcessCameraProvider.getInstance(this)
         cameraProviderFuture.addListener({
             val cameraProvider = cameraProviderFuture.get()
+            this.cameraProvider = cameraProvider
             val rotation = binding.previewView.display?.rotation ?: Surface.ROTATION_0
             val overlayEffect = createTimestampOverlayEffect()
             val preview = Preview.Builder()
@@ -268,15 +269,8 @@ class MainActivity : AppCompatActivity() {
         }
 
         runOnUiThread {
-            updateRecognitionStatus(hasText)
             updateBarcodeDisplay(hasText, normalizedText)
         }
-    }
-
-    private fun updateRecognitionStatus(hasText: Boolean) {
-        val stateLabel = if (hasText) "条码" else "无"
-        binding.recognitionStatusText.text =
-            getString(R.string.recognition_status_format, stateLabel)
     }
 
     private fun startRecording(overrideBarcodeText: String? = null) {

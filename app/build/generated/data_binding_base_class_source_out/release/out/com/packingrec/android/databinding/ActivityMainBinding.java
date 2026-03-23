@@ -35,13 +35,13 @@ public final class ActivityMainBinding implements ViewBinding {
   public final TextView ftpStatusText;
 
   @NonNull
+  public final Button localVideosButton;
+
+  @NonNull
   public final Button pauseButton;
 
   @NonNull
   public final PreviewView previewView;
-
-  @NonNull
-  public final TextView recognitionStatusText;
 
   @NonNull
   public final TextView recordingStatusText;
@@ -50,29 +50,29 @@ public final class ActivityMainBinding implements ViewBinding {
   public final Button settingsButton;
 
   @NonNull
-  public final Button stopRecordingButton;
+  public final LinearLayout statusPanel;
 
   @NonNull
-  public final Button switchCameraButton;
+  public final Button stopRecordingButton;
 
   private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull TextView barcodeText,
       @NonNull View centerRegion, @NonNull LinearLayout controlPanel,
-      @NonNull TextView ftpStatusText, @NonNull Button pauseButton,
-      @NonNull PreviewView previewView, @NonNull TextView recognitionStatusText,
+      @NonNull TextView ftpStatusText, @NonNull Button localVideosButton,
+      @NonNull Button pauseButton, @NonNull PreviewView previewView,
       @NonNull TextView recordingStatusText, @NonNull Button settingsButton,
-      @NonNull Button stopRecordingButton, @NonNull Button switchCameraButton) {
+      @NonNull LinearLayout statusPanel, @NonNull Button stopRecordingButton) {
     this.rootView = rootView;
     this.barcodeText = barcodeText;
     this.centerRegion = centerRegion;
     this.controlPanel = controlPanel;
     this.ftpStatusText = ftpStatusText;
+    this.localVideosButton = localVideosButton;
     this.pauseButton = pauseButton;
     this.previewView = previewView;
-    this.recognitionStatusText = recognitionStatusText;
     this.recordingStatusText = recordingStatusText;
     this.settingsButton = settingsButton;
+    this.statusPanel = statusPanel;
     this.stopRecordingButton = stopRecordingButton;
-    this.switchCameraButton = switchCameraButton;
   }
 
   @Override
@@ -126,6 +126,12 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.localVideosButton;
+      Button localVideosButton = ViewBindings.findChildViewById(rootView, id);
+      if (localVideosButton == null) {
+        break missingId;
+      }
+
       id = R.id.pauseButton;
       Button pauseButton = ViewBindings.findChildViewById(rootView, id);
       if (pauseButton == null) {
@@ -135,12 +141,6 @@ public final class ActivityMainBinding implements ViewBinding {
       id = R.id.previewView;
       PreviewView previewView = ViewBindings.findChildViewById(rootView, id);
       if (previewView == null) {
-        break missingId;
-      }
-
-      id = R.id.recognitionStatusText;
-      TextView recognitionStatusText = ViewBindings.findChildViewById(rootView, id);
-      if (recognitionStatusText == null) {
         break missingId;
       }
 
@@ -156,21 +156,21 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.statusPanel;
+      LinearLayout statusPanel = ViewBindings.findChildViewById(rootView, id);
+      if (statusPanel == null) {
+        break missingId;
+      }
+
       id = R.id.stopRecordingButton;
       Button stopRecordingButton = ViewBindings.findChildViewById(rootView, id);
       if (stopRecordingButton == null) {
         break missingId;
       }
 
-      id = R.id.switchCameraButton;
-      Button switchCameraButton = ViewBindings.findChildViewById(rootView, id);
-      if (switchCameraButton == null) {
-        break missingId;
-      }
-
       return new ActivityMainBinding((ConstraintLayout) rootView, barcodeText, centerRegion,
-          controlPanel, ftpStatusText, pauseButton, previewView, recognitionStatusText,
-          recordingStatusText, settingsButton, stopRecordingButton, switchCameraButton);
+          controlPanel, ftpStatusText, localVideosButton, pauseButton, previewView,
+          recordingStatusText, settingsButton, statusPanel, stopRecordingButton);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
