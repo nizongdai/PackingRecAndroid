@@ -1,6 +1,6 @@
 <variant
     name="release"
-    package="com.packingrec.android"
+    package="ltd.zejin.packingrec"
     minSdkVersion="29"
     targetSdkVersion="34"
     mergedManifest="build/intermediates/merged_manifest/release/processReleaseMainManifest/AndroidManifest.xml"
@@ -24,7 +24,7 @@
   <artifact
       classOutputs="build/intermediates/javac/release/compileReleaseJavaWithJavac/classes:build/tmp/kotlin-classes/release:build/kotlinToolingMetadata:build/intermediates/compile_and_runtime_r_class_jar/release/processReleaseResources/R.jar"
       type="MAIN"
-      applicationId="com.packingrec.android"
+      applicationId="ltd.zejin.packingrec"
       generatedSourceFolders="build/generated/ap_generated_sources/release/out:build/generated/data_binding_base_class_source_out/release/out"
       generatedResourceFolders="build/generated/res/resValues/release"
       desugaredMethodsFiles="/Users/nizongdai/.gradle/caches/9.3.1/transforms/294dc9e01d8c1ce7ee95973daf4c7d43/transformed/D8BackportedDesugaredMethods.txt">

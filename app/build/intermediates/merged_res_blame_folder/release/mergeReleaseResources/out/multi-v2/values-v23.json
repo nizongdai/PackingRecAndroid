@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.packingrec.android.app-mergeReleaseResources-48:/values-v23/values-v23.xml",
+            "outputFile": "ltd.zejin.packingrec.app-mergeReleaseResources-48:/values-v23/values-v23.xml",
             "map": [
                 {
                     "source": "/Users/nizongdai/.gradle/caches/9.3.1/transforms/9b006c743af165c983fdeaca3892b87b/transformed/cardview-1.0.0/res/values-v23/values-v23.xml",

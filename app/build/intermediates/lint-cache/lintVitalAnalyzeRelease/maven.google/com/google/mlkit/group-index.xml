@@ -12,7 +12,7 @@
   <face-mesh-detection versions="16.0.0-beta1,16.0.0-beta2,16.0.0-beta3"/>
   <genai-common versions="1.0.0-beta1,1.0.0-beta2,1.0.0-beta3"/>
   <genai-image-description versions="1.0.0-beta1"/>
-  <genai-prompt versions="1.0.0-alpha1,1.0.0-beta1"/>
+  <genai-prompt versions="1.0.0-alpha1,1.0.0-beta1,1.0.0-beta2"/>
   <genai-proofreading versions="1.0.0-beta1"/>
   <genai-rewriting versions="1.0.0-beta1"/>
   <genai-speech-recognition versions="1.0.0-alpha1"/>

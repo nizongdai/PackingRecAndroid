@@ -4,6 +4,7 @@
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
 
     <application
         android:allowBackup="true"
@@ -28,7 +29,7 @@
         <activity
             android:name=".LocalVideosActivity"
             android:exported="false"
-            android:screenOrientation="landscape"
+            android:screenOrientation="portrait"
             android:label="@string/local_videos_title" />
         <activity
             android:name=".LocalVideoPlayerActivity"

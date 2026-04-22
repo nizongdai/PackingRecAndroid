@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.packingrec.android.app-mergeDebugResources-48:/values-si/values-si.xml",
+            "outputFile": "ltd.zejin.packingrec.app-mergeDebugResources-48:/values-si/values-si.xml",
             "map": [
                 {
                     "source": "/Users/nizongdai/.gradle/caches/9.3.1/transforms/262e3fece6ff858e69a3d884624149b6/transformed/material-1.12.0/res/values-si/values-si.xml",

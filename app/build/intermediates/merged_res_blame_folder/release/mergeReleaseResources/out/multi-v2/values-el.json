@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.packingrec.android.app-mergeReleaseResources-48:/values-el/values-el.xml",
+            "outputFile": "ltd.zejin.packingrec.app-mergeReleaseResources-48:/values-el/values-el.xml",
             "map": [
                 {
                     "source": "/Users/nizongdai/.gradle/caches/9.3.1/transforms/cce9e9382de17081d3c6e5ea425b4b28/transformed/appcompat-1.7.0/res/values-el/values-el.xml",

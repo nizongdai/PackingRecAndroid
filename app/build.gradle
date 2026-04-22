@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace "com.packingrec.android"
+    namespace "ltd.zejin.packingrec"
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.packingrec.android"
+        applicationId "ltd.zejin.packingrec"
         minSdk 29
         targetSdk 34
         versionCode 1

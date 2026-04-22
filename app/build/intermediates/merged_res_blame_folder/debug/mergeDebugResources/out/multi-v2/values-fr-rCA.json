@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.packingrec.android.app-mergeDebugResources-48:/values-fr-rCA/values-fr-rCA.xml",
+            "outputFile": "ltd.zejin.packingrec.app-mergeDebugResources-48:/values-fr-rCA/values-fr-rCA.xml",
             "map": [
                 {
                     "source": "/Users/nizongdai/.gradle/caches/9.3.1/transforms/b8361c59906a0739020a0a4d13ab371c/transformed/play-services-base-18.1.0/res/values-fr-rCA/values.xml",

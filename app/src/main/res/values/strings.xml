@@ -25,6 +25,7 @@
     <string name="settings_title">条码识别与录制设置</string>
     <string name="start_hold_seconds">开始停留秒数</string>
     <string name="stop_empty_seconds">停止静止秒数</string>
+    <string name="max_recording_seconds">最长录制秒数</string>
     <string name="record_quality">录制质量档位</string>
     <string name="scan_interval_ms">识别间隔(毫秒)</string>
     <string name="min_barcode_length">最小条码长度</string>
@@ -32,6 +33,7 @@
     <string name="region_height_ratio">中央区域高度比例</string>
     <string name="barcode_text_size">条码显示字号</string>
     <string name="output_directory">输出目录子路径</string>
+    <string name="local_video_retention_days">本地视频保存天数</string>
     <string name="ftp_upload">FTP 上传</string>
     <string name="ftp_enable">启用FTP上传</string>
     <string name="ftp_host">FTP 服务器</string>
@@ -45,6 +47,28 @@
     <string name="local_videos_title">本地视频</string>
     <string name="local_videos_empty">暂无本地视频</string>
     <string name="back">返回</string>
+    <string name="check_update">检查更新</string>
+    <string name="update_available_title">发现新版本</string>
+    <string name="update_available_message">当前版本 %1$s，最新版本 %2$s。是否更新？</string>
+    <string name="update_not_found">已是最新版本</string>
+    <string name="update_check_failed">检查更新失败</string>
+    <string name="update_download_failed">下载失败</string>
+    <string name="update_downloading">正在下载更新</string>
+    <string name="update_install_prompt">需要允许安装未知来源应用</string>
+    <string name="update_install_action">去设置</string>
+    <string name="update_now">更新</string>
+    <string name="update_cancel">取消</string>
+    <string name="delete">删除</string>
+    <string name="delete_none_selected">请先选择要删除的视频</string>
+    <string name="delete_done">已删除 %1$d 个视频</string>
+    <string name="download">下载</string>
+    <string name="download_none_selected">请先选择要下载的视频</string>
+    <string name="download_done">已保存 %1$d 个视频到相册</string>
+    <string name="download_failed">保存失败</string>
+    <string name="upload">上传</string>
+    <string name="upload_none_selected">请先选择要上传的视频</string>
+    <string name="upload_done">已添加到上传队列 %1$d 个视频</string>
+    <string name="search_hint">搜索文件名</string>
     <string-array name="quality_options">
         <item>SD</item>
         <item>HD</item>

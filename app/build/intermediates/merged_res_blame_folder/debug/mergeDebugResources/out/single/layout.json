@@ -1,22 +1,26 @@
 [
     {
-        "merged": "/Users/nizongdai/.gradle/daemon/9.3.1/com.packingrec.android.app-mergeDebugResources-49:/layout/activity_local_video_player.xml",
-        "source": "/Users/nizongdai/.gradle/daemon/9.3.1/com.packingrec.android.app-main-52:/layout/activity_local_video_player.xml"
+        "merged": "/Users/nizongdai/.gradle/daemon/9.3.1/ltd.zejin.packingrec.app-mergeDebugResources-49:/layout/activity_main.xml",
+        "source": "/Users/nizongdai/.gradle/daemon/9.3.1/ltd.zejin.packingrec.app-main-52:/layout/activity_main.xml"
     },
     {
-        "merged": "/Users/nizongdai/.gradle/daemon/9.3.1/com.packingrec.android.app-mergeDebugResources-49:/layout/activity_main.xml",
-        "source": "/Users/nizongdai/.gradle/daemon/9.3.1/com.packingrec.android.app-main-52:/layout/activity_main.xml"
+        "merged": "ltd.zejin.packingrec.app-mergeDebugResources-49:/layout/activity_local_videos.xml",
+        "source": "ltd.zejin.packingrec.app-main-52:/layout/activity_local_videos.xml"
     },
     {
-        "merged": "com.packingrec.android.app-mergeDebugResources-49:/layout/activity_main.xml",
-        "source": "com.packingrec.android.app-main-52:/layout/activity_main.xml"
+        "merged": "/Users/nizongdai/.gradle/daemon/9.3.1/ltd.zejin.packingrec.app-mergeDebugResources-49:/layout/activity_local_videos.xml",
+        "source": "/Users/nizongdai/.gradle/daemon/9.3.1/ltd.zejin.packingrec.app-main-52:/layout/activity_local_videos.xml"
     },
     {
-        "merged": "/Users/nizongdai/.gradle/daemon/9.3.1/com.packingrec.android.app-mergeDebugResources-49:/layout/activity_local_videos.xml",
-        "source": "/Users/nizongdai/.gradle/daemon/9.3.1/com.packingrec.android.app-main-52:/layout/activity_local_videos.xml"
+        "merged": "/Users/nizongdai/.gradle/daemon/9.3.1/ltd.zejin.packingrec.app-mergeDebugResources-49:/layout/activity_local_video_player.xml",
+        "source": "/Users/nizongdai/.gradle/daemon/9.3.1/ltd.zejin.packingrec.app-main-52:/layout/activity_local_video_player.xml"
     },
     {
-        "merged": "/Users/nizongdai/.gradle/daemon/9.3.1/com.packingrec.android.app-mergeDebugResources-49:/layout/activity_settings.xml",
-        "source": "/Users/nizongdai/.gradle/daemon/9.3.1/com.packingrec.android.app-main-52:/layout/activity_settings.xml"
+        "merged": "/Users/nizongdai/.gradle/daemon/9.3.1/ltd.zejin.packingrec.app-mergeDebugResources-49:/layout/item_local_video.xml",
+        "source": "/Users/nizongdai/.gradle/daemon/9.3.1/ltd.zejin.packingrec.app-main-52:/layout/item_local_video.xml"
+    },
+    {
+        "merged": "/Users/nizongdai/.gradle/daemon/9.3.1/ltd.zejin.packingrec.app-mergeDebugResources-49:/layout/activity_settings.xml",
+        "source": "/Users/nizongdai/.gradle/daemon/9.3.1/ltd.zejin.packingrec.app-main-52:/layout/activity_settings.xml"
     }
 ]

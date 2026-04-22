@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.packingrec.android.app-mergeDebugResources-48:/values-ml/values-ml.xml",
+            "outputFile": "ltd.zejin.packingrec.app-mergeDebugResources-48:/values-ml/values-ml.xml",
             "map": [
                 {
                     "source": "/Users/nizongdai/.gradle/caches/9.3.1/transforms/9d478613752f8202f3f3a6ee7a6383db/transformed/play-services-basement-18.1.0/res/values-ml/values.xml",

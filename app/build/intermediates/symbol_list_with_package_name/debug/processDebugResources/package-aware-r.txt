@@ -1,4 +1,4 @@
-com.packingrec.android
+ltd.zejin.packingrec
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -3266,6 +3266,7 @@ id center_vertical
 id chain
 id chain2
 id chains
+id checkUpdateButton
 id checkbox
 id checked
 id chronometer
@@ -3300,6 +3301,7 @@ id decelerate
 id decelerateAndComplete
 id decor_content_parent
 id default_activity_button
+id deleteButton
 id deltaRelative
 id dependency_ordering
 id design_bottom_sheet
@@ -3315,6 +3317,7 @@ id disableIntraAutoTransition
 id disablePostScroll
 id disableScroll
 id disjoint
+id downloadButton
 id dragAnticlockwise
 id dragClockwise
 id dragDown
@@ -3412,6 +3415,7 @@ id line3
 id linear
 id listMode
 id list_item
+id localVideoRetentionInput
 id localVideosButton
 id m3_side_sheet
 id marquee
@@ -3439,6 +3443,7 @@ id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
 id matrix
+id maxRecordingInput
 id message
 id middle
 id minBarcodeInput
@@ -3560,6 +3565,7 @@ id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
 id scrollable
+id searchInput
 id search_badge
 id search_bar
 id search_button
@@ -3669,9 +3675,13 @@ id unchecked
 id uniform
 id unlabeled
 id up
+id uploadButton
 id useLogo
+id versionText
 id vertical_only
+id videoCheckBox
 id videoList
+id videoName
 id videoView
 id view_offset_helper
 id view_transition
@@ -3829,6 +3839,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
+layout item_local_video
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -3943,6 +3954,7 @@ string cancel
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
+string check_update
 string clear_text_end_icon_content_description
 string common_google_play_services_enable_button
 string common_google_play_services_enable_text
@@ -3962,6 +3974,13 @@ string common_google_play_services_wear_update_text
 string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
+string delete
+string delete_done
+string delete_none_selected
+string download
+string download_done
+string download_failed
+string download_none_selected
 string error_a11y_label
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
@@ -3983,6 +4002,7 @@ string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string idle
 string item_view_role_description
+string local_video_retention_days
 string local_videos
 string local_videos_empty
 string local_videos_title
@@ -4025,6 +4045,7 @@ string material_timepicker_minute
 string material_timepicker_pm
 string material_timepicker_select_time
 string material_timepicker_text_input_mode_description
+string max_recording_seconds
 string min_barcode_length
 string mtrl_badge_numberless_content_description
 string mtrl_checkbox_button_icon_path_checked
@@ -4105,6 +4126,7 @@ string region_width_ratio
 string resume
 string save
 string scan_interval_ms
+string search_hint
 string search_menu_title
 string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description
@@ -4122,6 +4144,19 @@ string stop_empty_seconds
 string stop_recording
 string stop_recording_button
 string switch_camera
+string update_available_message
+string update_available_title
+string update_cancel
+string update_check_failed
+string update_download_failed
+string update_downloading
+string update_install_action
+string update_install_prompt
+string update_not_found
+string update_now
+string upload
+string upload_done
+string upload_none_selected
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog

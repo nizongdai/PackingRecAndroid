@@ -43,6 +43,18 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
+            android:text="@string/max_recording_seconds" />
+
+        <EditText
+            android:id="@+id/maxRecordingInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
             android:text="@string/record_quality" />
 
         <Spinner
@@ -126,6 +138,18 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
+            android:text="@string/local_video_retention_days" />
+
+        <EditText
+            android:id="@+id/localVideoRetentionInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
             android:text="@string/ftp_upload" />
 
         <Switch
@@ -182,6 +206,13 @@
             android:layout_height="wrap_content"
             android:inputType="text" />
 
+        <Button
+            android:id="@+id/checkUpdateButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/check_update" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -203,6 +234,14 @@
                 android:layout_weight="1"
                 android:text="@string/cancel" />
         </LinearLayout>
+
+        <TextView
+            android:id="@+id/versionText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:textSize="14sp" />
     </LinearLayout>
 
 </ScrollView>
